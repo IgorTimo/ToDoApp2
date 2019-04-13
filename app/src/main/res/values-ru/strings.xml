@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Список дел</string>
+    <string name="title_of_headline_label">Заголовок категории</string>
+    <string name="headline_title_hint">Введите заголовок категории</string>
+    <string name="date_picker_title">Выберите дату:</string>
+    <string name="ic_menu_add_task">Добавить задачу</string>
+    <string name="main_menu_add_category">Добавить категорию</string>
+    <string name="new_headline_default_title">Новая категория</string>
+    <string name="new_to_do_default_title">Новая задача</string>
+    <string name="ic_menu_show_subtitle">Показать детали</string>
+    <string name="ic_menu_hide_subtitle">Скрыть детали</string>
+    <string name="if_to_do_list_is_empty_text_view_text">Нажмите кнопку добавить, чтобы создать новую задачу в категории </string>
+    <string name="if_headline_list_is_empty_text_view_text">Нажмите кнопку добавить, чтобы создать новую задачу</string>
+    <string name="maim_menu_set_example_lists">Добавить примерный список</string>
+    <string name="maim_menu_delete_example_lists">Удалить примерный список</string>
+    <string name="ic_menu_delete_all_done">Удалить все сделанные</string>
+    <string name="ic_menu_delete_all">Удалить все</string>
+    <string name="ic_menu_sort_by_date">Сортировать по дате</string>
+    <string name="main_menu_delete_all">Удалить всё</string>
+    <string name="delete_all_tasks_alert_dialog_title">Вы уверенны, что хотите удалить все категории и задачи?</string>
+    <plurals name="subtitle_plurals">
+        <item quantity="one">%1$d задача</item>
+        <item quantity="few">%1$d задачи</item>
+        <item quantity="other">%1$d задач</item>
+    </plurals>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_menu_new_category"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/main_menu_add_category"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/maim_menu_set_example_lists"
+        android:title="@string/maim_menu_set_example_lists"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/main_menu_delete_all"
+        android:title="@string/main_menu_delete_all"
+        app:showAsAction="never" />
+
+
+</menu>

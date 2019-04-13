@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="title_of_headline_label">Title of Headline</string>
+    <string name="headline_title_hint">Enter the title of headline</string>
+    <string name="date_picker_title">Choose Date:</string>
+    <string name="ic_menu_add_task">Add task</string>
+    <string name="main_menu_add_category">Add category</string>
+    <string name="new_headline_default_title">New category</string>
+    <string name="new_to_do_default_title">New task</string>
+    <string name="ic_menu_show_subtitle">Show subtitle</string>
+    <string name="ic_menu_hide_subtitle">Hide subtitle</string>
+    <string name="if_to_do_list_is_empty_text_view_text">Press button add to create new task in category </string>
+    <string name="if_headline_list_is_empty_text_view_text">Press button add to create new category</string>
+    <string name="maim_menu_set_example_lists">Set example lists</string>
+    <string name="maim_menu_delete_example_lists">Delete example lists</string>
+    <string name="ic_menu_delete_all_done">Delete all done</string>
+    <string name="ic_menu_delete_all">Delete all</string>
+    <string name="ic_menu_sort_by_date">Sort by date</string>
+    <string name="main_menu_delete_all">Delete All</string>
+    <string name="delete_all_tasks_alert_dialog_title">Are you sure, you wont to delete ALL categories and tasks?</string>
+    <plurals name="subtitle_plurals">
+        <item quantity="one">%1$d task</item>
+        <item quantity="other">%1$d tasks</item>
+    </plurals>
+</resources>

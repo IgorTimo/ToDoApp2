@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        style="?android:listSeparatorTextViewStyle"
+        android:text="@string/title_of_headline_label"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/headline_title"
+        android:hint="@string/headline_title_hint"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Delete"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ic_menu_new_to_do"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/ic_menu_add_task"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ic_menu_sort_by_date"
+        android:title="@string/ic_menu_sort_by_date"
+        android:icon="@drawable/ic_sort_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/ic_menu_show_subtitle"
+        android:title="@string/ic_menu_show_subtitle"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ic_menu_delete_all_done"
+        android:title="@string/ic_menu_delete_all_done"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ic_menu_delete_all"
+        android:title="@string/ic_menu_delete_all"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
